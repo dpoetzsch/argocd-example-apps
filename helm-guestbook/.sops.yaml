@@ -1,0 +1,4 @@
+# creation rules are evaluated sequentially, the first match wins
+creation_rules:
+  - # argo test age key
+    age: age13w29hnd6qg2t4agalgjzc8ne2me0xxk0s0lhqn7sdqvqh976efzsl2g4ff
