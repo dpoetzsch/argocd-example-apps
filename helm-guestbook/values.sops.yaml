@@ -1,5 +1,3 @@
-service:
-    type: LoadBalancer
 replicaCount: ENC[AES256_GCM,data:cw==,iv:1PWIgxK6KMwu7Xa3mNLN/7weZjeM1lnf21771Q1SKb4=,tag:0Ndkup6DF01wKA7+AMn/fQ==,type:int]
 sops:
     kms: []
@@ -16,8 +14,8 @@ sops:
             VUlwSjljWWpuM24wZE9CUXZVSmpTckkKQl6A1wwCwm+ryqeDRyNz8kIdcemYU0/B
             hJWkds4HNxkm8FBT8qSkUhCapVVu09ULCB1sHVpaZXJ4oz+z5SKg8Q==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2024-01-25T17:48:52Z"
-    mac: ENC[AES256_GCM,data:od2U6c4Wyq/RBT97+vcN8HKdElWl+wjFUuGWsgmcRZ2HzSVgG02+u20+tNg78SEUIdH5wZa7zk/7sjlut7aK5fFU1gA+8a7QMblgFrIAH4etp/kMhWuk8Pmo0OjuJr1HZi/W+ic7TeKuASl5VjMVch2bVc7wyRSXlUctNb8Kh+Q=,iv:wC2yY7nR6Qwvtah87h1M0Dj2rDmk3Y6uYaIJZbeowB4=,tag:6pvZN0Aqm9aTbMoawT69lA==,type:str]
+    lastmodified: "2024-01-26T13:00:55Z"
+    mac: ENC[AES256_GCM,data:qJtwv1Wgiv6e8Qci5uYoRyfWZLydXAvYO00LgSO+Ad5KohW6DPg2QGEl6e5ceMAhJWe028w3hTwQbNJq43EYnIm+Z8IEyx+yc1KFVDWbCxThAj/DmZ6Ow7SsnELfgtcdCC25gnQ6pe+ludq96uOAsrnRHiaUxbO+jb4n/RWGnUg=,iv:+Xj1BPxP3fmylF7Dt8i8TJ1g52RnebcqqHCgPQMnmz0=,tag:Bu2/lDlbONfdZEjJHTJhgQ==,type:str]
     pgp: []
     unencrypted_regex: ^(apiVersion|metadata|kind|type)$
     version: 3.7.3
